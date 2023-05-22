@@ -1,0 +1,52 @@
+.container { 	
+     max-width: 500px; 	
+     margin: 0 auto; 	
+     padding: 20px; 	
+     background-color: #0C090A; 
+     	border-radius: 5px; 	
+     	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+     	background-image: url("lightning.gif");
+} 
+
+form { 
+      display: flex; 	
+      flex-direction: column; 
+} 
+
+h2 { 	
+      text-align: center; 
+      	margin-bottom: 20px; 	
+      	color: #FFFFFF; 
+} 
+
+label { 
+      	margin-bottom: 10px; 	
+      	font-weight: bold; 	
+      	color: #FFFFFF; 
+} 
+
+input[type="text"], input[type="tel"], input[type="email"], select { 	      
+      padding: 10px; 
+      	border-radius: 3px; 	
+      	border: 1px solid #ccc; 	
+      	margin-bottom: 20px; 
+      	font-size: 16px;
+} 
+
+select { 	
+      height: 40px; 
+} 
+
+input[type="submit"] { 	
+      background-color: #736F6E; 	
+      color: #fff; 	
+      padding: 10px 20px; 	
+      border: none; 	
+      border-radius: 3px; 
+      	cursor: pointer; 	
+      	font-size: 16px; 
+} 
+
+input[type="submit"]:hover { 
+      	background-color: #C0C0C0; 
+}

@@ -1,0 +1,186 @@
+body { 
+        background-image: url("lightning.gif");
+} 
+       
+        h1 { 
+        font-weight: bold; 
+        text-align: center;
+        margin: 0px;
+        padding: 10px;
+} 
+       
+       h2 {
+       font-size: 35px;
+       font-family: cursive;
+       font-weight: bold;
+       text-align: center;
+       padding: 0px;
+       margin: 100px;
+}
+               
+        body { 
+        background-color: #34282C; 
+        margin: 150px;
+} /* Margin */ 
+
+       .container { 
+       margin: 0 auto; 
+       max-width: 1200px;
+       color: #FFFFFF;       
+       font-size: 20px;  
+         
+} /* Anchor layout */ 
+
+       .btn {
+       display: inline-block; 			
+       padding: 10px; 			
+       border: 1px solid #504A4B; 			
+       background-color: #504A4B; 			
+       color: #fff; 			
+       border-radius: 5px; 			
+       text-align: center; 			
+       transition: all 0.3s ease; 			
+       cursor: pointer; 		
+}
+
+      .btn:hover { 			
+      background-color: #fff; 			
+      color: #007bff; 		
+}
+       
+       a { 
+       text-decoration: none; 
+       color: #FFFFFF; 
+} /* List layout */ 
+   
+       ul {
+       list-style: none; 
+       margin: 50px;
+       padding: 0;
+       text-align: center;
+       cursor: pointer;
+} 
+ 
+       li { 
+       display: inline-block; 
+       margin-right: 20px;
+       text-align: center;
+       padding: 20px;
+} /* Borders */ 
+
+       img { 
+       border: 2px solid #ddd; 
+       padding: 5px;
+       height: 250px;
+       width: 240px;
+       margin: 0px;
+} /* Padding */ 
+
+      .product { 
+      padding: 56px;
+      text-align: center;
+      font-size: 25px;
+      text-family: Arial, Sans-serif;
+      text-decoration: none;
+      cursor: pointer;
+      
+      .size label { 
+      display: inline-block; 
+      background-color: #f2f2f2; 
+      color: #333; 
+      padding: 5px 10px; 
+      border-radius: 5px; 
+      font-weight: bold; 
+      margin-right: 10px; 
+}
+    
+      
+} /* Hover */ 
+
+      a:hover { 
+      color: #666; 
+} 
+
+     img:hover { 
+     border-color: #666; 
+} /* Display */ 
+
+     
+     .product { 
+     display: inline-block; 
+     width: 200px; 
+     text-align: center;
+     
+} 
+
+     .clearfix::after { 
+     content: ; clear: both; display: table; 
+} /* Positioning */ 
+
+     .banner { 
+     position: relative; height: 250px;  
+     background-image: url("heaven.gif");
+     background-size: cover; 
+     margin: 0px;
+     background-position: center; 
+} 
+    
+    .banner h1 {
+     position: absolute; 
+     top: 50%; 
+     left: 50%; 
+     transform: translate(-50%, -50%);
+     font-family: Arial,sans-serif;
+     font-weight: bold;
+     color: #fff; 
+     font-size: 60px; 
+     text-shadow: 4px 4px #000; 
+     text-align: center;
+} /* Navigation dropdown design */ 
+
+    .dropdown { 
+    position: relative; 
+    display: inline-block; 
+} 
+
+    .dropdown-content { 
+    display: none; 
+    position: absolute;
+    top: 100%
+    left: 0;
+    z-index: 1; 
+    background-color: #f9f9f9; 
+    min-width: 160px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 8px 16px 2px 
+    rgba(0,0,0,0.2); 
+} 
+
+    .dropdown:hover .dropdown-content { 
+    display: block;
+    position: relative;
+    
+} 
+    .dropdown-item { 			
+     display: block; 			
+     padding: 5px; 			
+     border-bottom: 1px solid #ccc; 			
+     color: #333; 			
+     text-decoration: none; 			
+     transition: all 0.3s ease; 		
+} 		
+     .dropdown-item:hover { 			
+     background-color: #f2f2f2; 		
+} 		
+
+    .dropdown-content a { 
+    color: #333; 
+    padding: 12px 16px; 
+    text-decoration: none; 
+    display: block; 
+} 
+   
+    .dropdown-content a:hover { 
+    background-color: #FFFFFF; 
+} 
